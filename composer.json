@@ -1,5 +1,7 @@
 {
     "name": "root22/php-workpace",
+    "license": "proprietary",
+    "description": "",
     "autoload": {
         "psr-4": {
             "APP\\" : "app/",
@@ -8,6 +10,9 @@
     },
     "require": {
         "php" : ">=7.4"
+    },
+    "scripts" : {
+    	"test" : "vendor/bin/phpunit test"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
