@@ -1,6 +1,6 @@
 {
     "name": "root22/php-workpace",
-    "license": "gnu",
+    "license": "proprietary",
     "description": "",
     "autoload": {
         "psr-4": {
